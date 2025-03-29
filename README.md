@@ -15,10 +15,8 @@ The website highlights her personal and professional journey, her achievements, 
 ---
 
 ## 🌐 View the website here  
-   - Open your terminal and type the following command to clone the repository to your local machine:
-   
-    ```bash
-    git clone https://github.com/ronshukrun/207279142-main.git
+👉 [Miriam Peretz – Personal Website](https://wed-2023.github.io/207279142/) 
+
 ---
 
 ## 📚 Features & Content
