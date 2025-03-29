@@ -39,5 +39,4 @@ The website contains several interactive and informative sections:
 -  **HTML**: For structuring the content.
 -  **CSS**: For styling and layout.
 -  **JavaScript**: For interactivity (embedded directly into the HTML).
--  **External Libraries**: For embedding YouTube videos, generating QR codes, etc.
 
