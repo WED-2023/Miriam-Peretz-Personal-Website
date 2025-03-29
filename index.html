@@ -2,19 +2,57 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<title>Miriam Peretz</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<title>QR Code</title>
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+<style>
+  #qrcode-container {
+    display: inline-block;
+    padding: 10px;
+    /* border: 5px solid #76bbeb;  */
+    text-align: center;
+    position: relative;  
+  }
+  #qrcode-text {
+    font-family: 'Catamaran', sans-serif;
+    position: absolute;
+    bottom: 10px;  
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .video-container {
+    text-align: center;
+  }
+
+  .video-box {
+    display: inline-block; 
+    margin: 10px;
+    vertical-align: top; 
+  }
+
+  p {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Catamaran', sans-serif;
+  }
+</style>
 </head>
 <body>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <ul id="nav">
+    <li><a href="#about">About</a></li>
+    <li><a href="#photos">Photos</a></li>
+    <li><a href="#playlist">Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
 </div>
-		  
-<section id="about" class="section">
 <br/>
 <br/>
 <br/>
@@ -22,68 +60,118 @@
 <br/>
 <br/>
 <br/>
+
+<h1 class="MiriamPeretz">Miriam Peretz</h1>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
+
+<h1 class="typewriter"></h1>
+<script>
+  setTimeout(() => {
+      document.querySelector(".typewriter").classList.add("stop-blinking");
+  }, 8000);
+</script>
+<section id="about" class="about">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+<div class="flag-container"></div> <!-- הדגל -->
+
+<!-- <span class="line"></span>
+<div class="section-title">
+  <span></span>About Miriam Peretz<span></span>
+</div> -->
+<h2>About Miriam Peretz</h2>  
+<p>
+  Miriam Peretz is an Israeli educator, author, and public figure who serves as an inspiration to many through her
+  extraordinary life story and dedication to promoting values of education, giving, and love for the country. 
+  She was born in Morocco in 1954 and immigrated to Israel as a child. For many years, she worked as a teacher and school 
+  principal, driven by her belief in the power of education to shape future generations. Miriam tragically lost her two sons,
+  Lieutenant Uriel and Major Eliraz Peretz, who fell in military service. Despite her immense grief, she chose to dedicate 
+  her life to strengthening the spirit of the nation and educating for hope, unity, and leadership. Her lectures and books 
+  touch the hearts of many and impact diverse audiences across the country. In recognition of her contributions to society 
+  and the state, she was awarded the Israel Prize in 2018. Her interests include education, writing, public speaking, and
+  community empowerment, and she continues to work tirelessly to preserve her sons’ legacy and share her love for the people
+  and the country.
+</p>
 <br/>
 </section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+<section id="photos" class="photos">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+<!-- <span class="line"></span>
+<div class="section-title">
+  <span></span>Photos of Miriam Peretz<span></span>
+</div> -->
+<h2>Photos of Miriam Peretz</h2>  
+
+<img src="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_533,w_758/572068"width=280 hight=1000/>
+<img src="https://www.humansoftelaviv.co.il/wp-content/uploads/2019/11/%D7%9E%D7%A8%D7%99%D7%9D-%D7%A4%D7%A8%D7%A5.jpg"width=300 hight=1000/>
+<img src="https://2.a7.org/files/pictures/781x439/501662.jpg"width=355 hight=1000/></br>
+<img src="https://www.kan.org.il/media/nbwnkydl/cat30296_img732697739.jpg?width=642&height=361&rnd=133271240429130000"width=320 hight=1000/>
+<img src="https://2.a7.org/files/pictures/781x439/1016790.jpg"width=321 hight=1000/>
+<img src="https://mobile.srugim.co.il/_next/image?url=https%3A%2F%2Fwww.srugim.co.il%2Fi%2Fwp-content%2Fuploads%2F2017%2F05%2FF140320ABG03__w645h390q80__w570h350q80.jpg&w=3840&q=75"width=293 hight=1000/>
 </section>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+<section id="playlist" class="playlist">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+<!-- <div class="section-title">
+  <span></span>Playlist<span></span>
+</div> -->
+<h2>Playlist</h2>  
+<div class="video-container">
+  <div class="video-box">
+    <iframe width="300" height="215" src="https://www.youtube.com/embed/yy0oAUuSA6k?si=B5PO7L_nYpwfOUtT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>
+  <b>"Miriam Peretz, Laureate of the Israel Prize"</b></br>
+  The Israel Prize ceremony is one of the most prestigious events in the country, honoring individuals who have made significant contributions to Israeli society.
+  Miriam Peretz, laureate of the Israel Prize, is a symbol of courage. After losing her two sons in Israel's wars, she became a role model, leading with values of hope, resilience, and love for the land.</p>
+</div>
+
+  <div class="video-box">
+    <iframe width="300" height="215" src="https://www.youtube.com/embed/bU-45GaMe6w?si=VHQlnoRD7CpiDO5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </br>
+    <p>
+      <b>
+        "The Power of Small Things"
+      </b></br>
+      Miriam Peretz loves this song so much because it emphasizes the importance of appreciating the small things in life,
+       like a smile, a hug, or a kind word. She highlights that we need to learn to appreciate what we have and face difficult
+        situations with hope for a better future.</p>
+  </div>
+
+  <div class="video-box">
+    <iframe width="300" height="215" src="https://www.youtube.com/embed/-R2eoIBcVjg?si=izUucM8FdQiJqY6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>
+<b>"Miriam Peretz on Channel 14"</b></br>
+  In an interview with Channel 14, Miriam Peretz shares her pain over the fact that the public discourse is primarily focused on politics, while the memory of Israel's fallen soldiers is being forgotten. She speaks about the soldiers who went into battle together, without differences, with the goal of protecting our home, and calls for a discourse of brotherhood and solidarity.</p>
+</div>
+</div>
+
+
 </section>
 
-<section id="like" class="section">
+<section id="like" class="like">
 <br/>
 <br/>
 <br/>
@@ -92,87 +180,173 @@ my playlist
 <br/>
 <br/>
 <br/>
+<h2>Like this page</h2>
+<button id="likeButton">
+    <i class="fas fa-thumbs-up"></i> Like
+</button>
+
+<p id="likeCount">0 Likes</p>
+
+<script>
+    let likeCount = localStorage.getItem("likeCount") ? parseInt(localStorage.getItem("likeCount")) : 0;
+    document.getElementById("likeCount").innerText = likeCount + " Likes";
+    document.getElementById("likeButton").addEventListener("click", function() {
+        likeCount++;
+        document.getElementById("likeCount").innerText = likeCount + " Likes";
+        localStorage.setItem("likeCount", likeCount);
+    });
+</script>
+
+</section>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+
+<section id="qrcoder" class="qrcoder">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+<h2>Scan to visit my website</h2>
+
+<div id="qrcode-container">
+  <div id="qrcode"></div>
+</div>
+<script>
+  QRCode.toDataURL('https://ronshukrun.github.io/207279142-main/', function (error, url) {
+    if (error) console.error(error);
+    var img = document.createElement('img');
+    img.src = url;
+    img.style.width = '150px';  
+    document.getElementById('qrcode').appendChild(img);
+  });
+</script>
 </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+<section id="spa" class="spa">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+<h2>Key Differences Between Web1, Web2, and Web3</h2>
+<ul>
+    <li><strong>Web1:</strong> 
+        A read-only web, where users can only consume information. The websites are static, and the interaction is limited to viewing content.
+    </li>
+    <li><strong>Web2:</strong> 
+        Focuses on user-generated content, allowing interactivity and social features. Websites are dynamic and personalized, enabling users to engage with content and share it easily.
+    </li>
+    <li><strong>Web3:</strong> 
+        A decentralized web, leveraging blockchain technology. Web3 gives users control over their data, prioritizing privacy, security, and user ownership. It focuses on peer-to-peer interactions without intermediaries.
+    </li>
+</ul>
+
+<h2>Use Case: "Side Effects of Medications"</h2>
+<h3>Web1</h3>
+<p>
+    In Web1, searching for "side effects of medications" would lead you to a static webpage with general, read-only information. You'd only be able to read the content, and there wouldn't be any interactive elements, comments, or updates.
+</p>
+
+<h3>Web2</h3>
+<p>
+    On Web2, the search results would be dynamic, showing user-generated content such as forums, product reviews, and medical blogs. You might see personalized content or suggestions based on your search history, and you could interact with other users through comments or sharing.
+</p>
+
+<h3>Web3</h3>
+<p>
+    In Web3, the search results would come from decentralized databases or blockchain platforms. Information would be more transparent, and you might be able to access peer-reviewed or verified data. User privacy and data control would be prioritized, ensuring that the content you interact with is secure and reliable.
+</p>
 </section>
 
 <section id="contact" class="section">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+<!-- <div class="section-title">
+  <span></span>📩 Contact Me<span></span>
+</div> -->
+<h2>📩 Contact Me</h2>
+
+
+<form
+  action="https://formspree.io/f/mnnpbpoo"
+  method="POST"
+>
+<label>Full Name:</label></br>
+<input type="text" id="name" placeholder="Your full name" required style="width: 380px;"><br/>
+
+<label>
+  Your Email:
+  <input type="email" name="email" placeholder="Enter your email" required style="width: 380px;">
+</label>
+
+<label>
+  Your Message:
+  <input type="message" placeholder="Write your message here..."style="width: 380px;" >
+</label>
+  <label>Choose an Emoji:</label>
+  <select id="emoji">
+    <option value="🙂">🙂 Smile</option>
+    <option value="😀">😀 Happy</option>
+    <option value="😢">😢 Sad</option>
+    <option value="😎">😎 Cool</option>
+    <option value="😃">😃 Big Smile</option>
+    <option value="😂">😂 Laughing</option>
+    <option value="😍">😍 Love</option>
+    <option value="😜">😜 Playful</option>
+    <option value="😅">😅 Nervous Smile</option>
+    <option value="🤔">🤔 Thinking</option>
+    <option value="😒">😒 Unamused</option>
+    <option value="😇">😇 Angel</option>
+    <option value="😈">😈 Devil</option>
+    <option value="🤩">🤩 Star Struck</option>
+    <option value="😶">😶 Speechless</option>
+    <option value="🤗">🤗 Hug</option>
+    <option value="😏">😏 Smirk</option>
+    <option value="😳">😳 Embarrassed</option>
+    <option value="🥺">🥺 Pleading</option>
+    <option value="😝">😝 Tongue Out</option>
+    <option value="😏">😏 Smirk</option>
+    <option value="🤯">🤯 Mind Blown</option>
+    <option value="🥳">🥳 Party</option>
+    <option value="😔">😔 Disappointed</option>
+    <option value="💪">💪 Strong</option>
+    <option value="🧐">🧐 Curious</option>
+    <option value="🥴">🥴 Dizzy</option>
+    <option value="😜">😜 Cheeky</option>
+    <option value="🫣">🫣 Face with hand over mouth</option>
+    <option value="🧠">🧠 Brain</option>
+    
+  </select>
+
+  <button type="submit">Send</button>
+</form>
+
+
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+<br/><br/>
+
+
+
 </section>
 
 

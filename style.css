@@ -1,7 +1,279 @@
 #menu
 {
+	font-family: 'Catamaran', sans-serif;
 	position: fixed;
 	width: 100%;
-	height: 35px;
+	height: 45px;
 	background: white;
+	background-color:#0372b8;
+}
+#menu li {
+	display: inline;
+	margin: 0 20px;
+  }
+  
+  #menu a {
+	text-decoration: none; 
+	color: #e7eaed; 	  
+	font-size: 1.2em;
+	font-weight: bold;
+  }
+
+#menu a:hover {
+	color: #8cbaed;
+	text-decoration: none;
+  }
+
+
+.MiriamPeretz  {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 10vw;
+	color: rgba(95, 192, 254, 0.6);
+	text-shadow:
+	-14px 14px 0 rgba(50, 153, 240, 0.4),		
+	-1px 1px 0 #0372b8,
+	-2px 2px 0 #0372b8,
+	-3px 3px 0 #0372b8,
+	-4px 4px 0 #0372b8,
+	-5px 5px 0 #0372b8,
+	-6px 6px 0 #0372b8,
+	-7px 7px 0 #0372b8,
+	-8px 8px 0 #0372b8,
+	-9px 9px 0 #0372b8,
+	-10px 10px 0 #0372b8,
+	-11px 11px 0 #0372b8,
+	-12px 12px 0 #0372b8,
+	-13px 13px 0 #0372b8,
+	-14px 14px 0 #0372b8,
+	-15px 15px 35px rgba(0, 0, 0, 0.2),
+	-35px 15px 10px rgba(0, 0, 0, 0.1);
+	transition: all .1s ;
+	line-height: 200px;
+  }
+
+
+h1 {
+	font-family: 'Catamaran', sans-serif;
+    color: #0372b8;
+    text-align: center;
+    font-weight: bolder;
+    margin: 1rem;
+	-webkit-text-stroke: 0.6px white;
+	font-size: 2.5em;
+}
+@keyframes typing {
+    0%, 5% { content: ""; }
+    10% { content: """I"; }
+    15% { content: "I "; }
+    20% { content: "I love"; }
+    25% { content: "I love this"; }
+    30% { content: "I love this country"; }
+    35% { content: "I love this country with"; }
+    40% { content: "I love this country with a"; }
+    45% { content: "I love this country with a fierce"; }
+    50% { content: "I love this country with a fierce love,"; }
+    55% { content: "I love this country with a fierce love, this"; }
+    60% { content: "I love this country with a fierce love, this country"; }
+    65% { content: "I love this country with a fierce love, this country moves"; }
+    70% { content: "I love this country with a fierce love, this country moves me"; }
+    75% { content: "I love this country with a fierce love, this country moves me deeply,"; }
+    80% { content: "I love this country with a fierce love, this country moves me deeply, something"; }
+    85% { content: "I love this country with a fierce love, this country moves me deeply, something burns"; }
+    90% { content: "I love this country with a fierce love, this country moves me deeply, something burns in me"; }
+    95% { content: "I love this country with a fierce love, this country moves me deeply, something burns in me with love"; }
+    100% { content: "I love this country with a fierce love, this country moves me deeply, something burns in me with love for this country, for this land."; }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.typewriter::before {
+    content: "";
+    animation: typing 8s steps(30) forwards;
+}
+
+.typewriter::after {
+    content: "";
+    border-right: 2px solid currentColor;
+    animation: blink 0.5s step-end infinite;
+}
+
+.typewriter.stop-blinking::after {
+    animation: none;
+    border-right: none;
+}
+
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0372b8;
+	font-family: 'Catamaran', sans-serif;
+
+}
+
+.section-title span{
+    flex-grow: 1;
+    height: 2px;
+    background-color: #0372b8;
+    margin: 0 15px;
+}
+.about p{
+    padding: 50px 20px; 
+    border-radius: 10px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+
+.about p {
+    font-size: 1.2rem; 
+    color: #555; 
+    line-height: 1.8;
+    text-align: le; 
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px; 
+	text-align: left;
+	background-color: #ffffff;
+
+}
+
+.photos img {
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.photos img:hover {
+    transform: scale(1.5); 
+}
+
+.playlist p{
+    padding: 50px 20px;
+    border-radius: 10px; 
+    max-width: 10px;
+    margin: 0 auto; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+	font-size: 1.0rem;
+    color: #000000; 
+    line-height: 1.8; 
+    max-width: 500px; 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; 
+	text-align: left;
+	background-color: #ffffff;
+
+}
+body {
+	font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#likeButton {
+    padding: 5px 10px; 
+    background-color: #183eae;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; 
+    display: inline-block; 
+    width: auto; 
+    height: auto; 
+    border-radius: 5px; 
+    text-align: center;  
+}
+
+#likeButton i {
+    margin-right: 5px; 
+    font-size: 14px; 
+}
+
+#likeCount {
+    margin-top: 10px;
+    font-size: 14px;  
+}
+.like h2{
+	font-family: 'Catamaran', sans-serif;
+    color: #0372b8;
+
+}
+.spa h2{
+
+	color: #0372b8;	list-style-type: disc;
+	margin-left: 20px;
+	text-align:center;
+	margin: 10px 0;
+	font-family: 'Catamaran', sans-serif;
+	line-height: 1.6;
+	margin: 20px;
+}
+.spa p{
+    font-size: 1.2rem; 
+    color: #000000;
+    line-height: 1.8;
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 10px; 
+	text-align: left;
+	font-family: 'Catamaran', sans-serif;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+	background-color: #ffffff;
+
+}
+.spa ul{
+    font-size: 1.2rem; 
+    color: #000000;
+    line-height: 1.8;
+    max-width: 900px; 
+    margin: 20px auto; 
+	font-family: 'Catamaran', sans-serif;
+    padding: 20px;
+    border-radius: 10px; 
+	text-align: left;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+	background-color: #ffffff;
+
+}
+h2{
+	font-family: 'Catamaran', sans-serif;
+    color: #0372b8;
+	font-size: 1.7em;
+
+}
+
+body {
+    background-image: url("photo.png");
+    background-position: right ;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-attachment: fixed;
 }
