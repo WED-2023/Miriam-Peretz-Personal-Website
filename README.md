@@ -15,7 +15,7 @@ The website highlights her personal and professional journey, her achievements, 
 ---
 
 ## 🌐 View the website here  
-👉 [Miriam Peretz – Personal Website]((https://wed-2023.github.io/Miriam-Peretz-Personal-Website/)) 
+👉 [Miriam Peretz – Personal Website](https://wed-2023.github.io/Miriam-Peretz-Personal-Website/)
 
 ---
 
